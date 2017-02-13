@@ -8,8 +8,9 @@
 import scrapy
 
 
-class HackernewsItem(scrapy.Item):
+class WikipediaItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
     title = scrapy.Field()
-    url   = scrapy.Field()
+    url = scrapy.Field()
+    
